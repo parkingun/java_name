@@ -1,0 +1,18 @@
+package test_1;
+
+public class test_2 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for(int dan=1; dan <10; dan++) {
+			if(dan%2==0) {
+				System.out.println(dan + '´Ü');
+				for(int num=1; num <10; num++) {	
+					int total = dan * num;
+					System.out.print(dan + "x" + num + "=" + total);
+				}	
+			}
+		}
+		
+	}
+}

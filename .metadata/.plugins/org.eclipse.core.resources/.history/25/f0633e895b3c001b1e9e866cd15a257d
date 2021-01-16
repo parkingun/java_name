@@ -1,0 +1,22 @@
+package test_1;
+
+public class java_test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int rank = 10;
+		char medalColor;
+		
+		switch(rank) {
+			case 1 : medalColor = 'G';
+				break;
+			case 10 : medalColor = 'D';
+				break;
+			default:
+				medalColor = 'A'
+		}
+		
+		System.out.println(medalColor);
+	}
+
+}
