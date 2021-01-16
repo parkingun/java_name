@@ -11,7 +11,7 @@ Scanner sc = new Scanner(System.in);
 		
 		System.out.println("가로를 입력하세요.");
 		width = sc.nextInt();
-		System.out.println("세로를 입력하세요.");
+		System.out.println("높이를 입력하세요.");
 		height = sc.nextInt();
 		
 		System.out.printf("삼각형 넓이 = %.2f", (float)width*height/2);
