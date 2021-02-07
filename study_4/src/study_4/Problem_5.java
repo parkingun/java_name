@@ -11,6 +11,8 @@ public class Problem_5 {
 		
 		System.out.println("홀수 5 ~ 19 자연수 입력하세요.");
 		num1 = sc.nextInt();
+		// 다시 풀기 시도
+		
 		/*
 		for (int row=1; row<=5; row++) {
 			if(row%2==1) {
