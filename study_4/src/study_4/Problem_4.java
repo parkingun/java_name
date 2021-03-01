@@ -7,26 +7,27 @@ public class Problem_4 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int num1;
+		int num;
 		
 		System.out.println("홀수 5 ~ 19 자연수 입력하세요.");
-		num1 = sc.nextInt();
+		num = sc.nextInt();
 		
-		for (int row=1; row<=5; row++) {
-			if(row%2==1) {
-				for (int col=1; col<=num1; col++) {
+		
+		for (int a=1; a<=5; a++) {
+			if(a%2==1) {
+				for (int b=1; b<=num; b++) {
 					System.out.print("*");	
 				}
 				System.out.println();			
 				}
 			
 			else {
-				for(int c=1; c<=(num1-3)/2; c++) {
+				for(int c=1; c<=(num-3)/2; c++) {
 					System.out.println("*");
 				}
 			}
 		}
-
+		
 	
 	}
 }
